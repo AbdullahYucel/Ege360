@@ -1,7 +1,6 @@
 <template>
   <div class="contain">
     <div class="roof"></div>
-
     <div class="adress">
       <h4
         :id="info.key"
@@ -9,9 +8,7 @@
         :key="info.index"
         @click="sendID"
         class="yazi"
-      >
-        {{ info.baslik }}
-      </h4>
+      >{{ info.baslik }}</h4>
     </div>
   </div>
 </template>
@@ -19,26 +16,26 @@
 <script>
 export default {
   created() {
-    fetch('../data.json')
+    fetch("../data.json")
       .then((res) => {
-        return res.json()
+        return res.json();
       })
       .then((res) => {
-        return (this.information = res.siniflar)
-      })
+        return (this.information = res.siniflar);
+      });
   },
   data() {
     return {
       information: [],
-      whereClick: '',
-    }
+      whereClick: "",
+    };
   },
   methods: {
     sendID(e) {
-      this.$emit('clicked', e.currentTarget.id)
+      this.$emit("clicked", e.currentTarget.id);
     },
   },
-}
+};
 </script>
 
 <style></style>

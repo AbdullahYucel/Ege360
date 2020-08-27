@@ -1,13 +1,23 @@
 <template>
   <div id="app">
-    <div class="uyari">
+    <!-- <div class="uyari">
       <h2>Please rotate your device for using this websites features complately!</h2>
       <img src="phone.png" class="phone" />
+    </div>-->
+    <div class="header">
+      <Header />
     </div>
-    <Header />
+
+    <div class="main-content">
+      <NavBar @clicked="sendID" />
+      <New :whereClick="whereClick" :classroom="classroom" />
+    </div>
+    <!--     
     <NavBar @clicked="sendID" />
-    <New :whereClick="whereClick" :classroom="classroom" />
-    <Footer />
+    <New :whereClick="whereClick" :classroom="classroom" />-->
+    <div class="footer">
+      <Footer />
+    </div>
   </div>
 </template>
 

@@ -4,19 +4,19 @@
       "key": "b-class",
       "image": "https://momento360.com/e/u/a7182471860848c2970131cbc4f686f1",
       "baslik": "Big Classroom #1",
-      "aciklama": "In big classroom, there are a computer which is connected to projector and 2 whiteboards. The capacity is 66 students."
+      "aciklama": "In the big classroom, there are a computer which is connected to the projector and 2 whiteboards. It has a capacity of 66 students."
     },
     {
       "key": "b-class2",
       "image": "https://momento360.com/e/u/ce4be911e7604cabbaa3308ed403ee53",
       "baslik": "Big Classroom #2",
-      "aciklama": "The capacity of big classroom #2 is 90 students. There is a computer that connected projector. This classroom consist of combination of 2 classes and at 2nd floor."
+      "aciklama": "The capacity of big classroom #2 is 90 students. There is a computer that is connected to the projector. This classroom comprises of a combination of two classes and it is on the 2nd floor."
     },
     {
       "key": "bio-lab",
       "image": "https://momento360.com/e/u/fdb7b07cf21741849fac45002de921d8",
       "baslik": "Biology Laboratory",
-      "aciklama": "There are 30 microscope, human skeleton model, a computer and an eye model in biology laboratory."
+      "aciklama": "There are 30 microscopes, a human skeleton model, a computer and an eye model in biology laboratory."
     },
 
     {
@@ -29,13 +29,13 @@
       "key": "conferance",
       "image": "https://momento360.com/e/u/d455f576415e470789afd5a6c68e14f3",
       "baslik": "Conferance Hall",
-      "aciklama": "Is the place where the presentations, conferences and ceremonies of the faculty and the campus are held. There are a computer on lectern which connected to the projector. The capacity is 250 people."
+      "aciklama": "It is the place where the presentations, conferences and ceremonies of the faculty and the campus are held. There are a computer on lectern which is connected to the projector. The capacity is 250 people."
     },
     {
       "key": "drama",
       "image": "https://momento360.com/e/u/afa95a550be1444d9eb8e5c98ff7498b",
       "baslik": "Drama Saloon",
-      "aciklama": " This classroom is used by pre-school teachers. Accordingly, there is a computer which connected to the projector and contains materials used in pre-school-teching such as pillows."
+      "aciklama": " This classroom is used by pre-school teachers. Accordingly, there is a computer which is connected to the projector. The classroom contains materials used in pre-school-teching such as pillows."
     },
     {
       "key": "out",
@@ -59,15 +59,15 @@
     {
       "key": "physique",
       "image": "https://momento360.com/e/u/7ca84cedd2694b47b99bc8a78584e8ac",
-      "baslik": "Physique Laboratory",
-      "aciklama": "Contains materials for electric lessons, also basic machines and a computer for making presentation "
+      "baslik": "Physics Laboratory",
+      "aciklama": "It contains materials for electric lessons, also basic machines and a computer to make presentation "
     },
 
     {
       "key": "s-class",
       "image": "https://momento360.com/e/u/0689daa6308342169023f32cba70611f",
       "baslik": "Small Classroom #1",
-      "aciklama": "There are totally 48 pair of chair and desk. The computer on the teacher desk is connected to the projector."
+      "aciklama": "There are totally 48 pairs of chair and desk. The computer on the teacher desk is connected to the projector."
     },
     {
       "key": "s-class2",
@@ -79,34 +79,34 @@
       "key": "student",
       "image": "https://momento360.com/e/u/7bfa02ebf4fc43808380551c012e2e56",
       "baslik": "Student Laboratory",
-      "aciklama": "This laboratory is open to use all studendts in the faculty. There are 15 computers. Students have chance to use those machines to make their homework or any other works which requiring computer."
+      "aciklama": "This laboratory is open to all students in the faculty. There are 15 computers. Students have chance to use those machines to make their homework or any other works which require computer."
     },
 
     {
       "key": "technology1",
       "image": "https://momento360.com/e/u/64b77fd2fbf04f5886523235c8bd4cfd",
       "baslik": "Technology Laboratory #1",
-      "aciklama": "There are 25 computers for students and a computer connected to projector for teacher. Computer-aided courses of departments of faculty are taught there."
+      "aciklama": "There are 25 computers for students and a computer connected to projector for teacher. Computer-aided courses of departments of faculty are carried out there."
     },
 
     {
       "key": "technology2",
       "image": "https://momento360.com/e/u/3b7de7ddb9754bd9ab2584cc99be7343",
       "baslik": "Technology Laboratory #2",
-      "aciklama": "There are 40 computers available for use(students) and also a computer connected to the projector for teacher. Computer-aided courses of departments of faculty are taught there. "
+      "aciklama": "There are 40 computers available for students and also a computer connected to the projector for teacher. Computer-aided courses of departments of the faculty are carried out there. "
     },
 
     {
       "key": "technology50",
       "image": "https://momento360.com/e/u/e4df8254b0024b45aa5a41e0a5ea9eac",
       "baslik": "50. Year Technology Laboratory",
-      "aciklama": "There are 40 computers available for use(students) and also a computer connected to the projector for teacher. The name comes from 50th anniversary of Ege University's."
+      "aciklama": "There are 40 computers available for students and also a computer connected to the projector for teacher. The name of lab comes from the fifth anniversary of Ege University."
     },
     {
       "key": "techclass",
       "image": "https://momento360.com/e/u/c2dc6b2d0b7d4a52b31f810d586deec3",
       "baslik": "Technology Class",
-      "aciklama": "Contains a smartboard and 11 seats. Ethernet cables and electric sockets are available on the desk for using laptop. Faculty meetings are held here. Also if it necessary, there is an extra room that using with special permission. In this room, there are a greenscreen and a powerful computer for editing. This room covered with a special material for sound isolation."
+      "aciklama": "It contains a smartboard and 11 seats. Ethernet cables and electric sockets are available on the desk for the usage of laptop if necessary. Faculty meetings are held here. Also if necessary, there is an extra room which can be used only with special permission. In this room, there are a greenscreen and a powerful computer. This room covered with a special material for sound isolation."
     }
   ],
   "projectTeam": [

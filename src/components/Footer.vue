@@ -3,9 +3,7 @@
     <div class="team">
       <ul>
         <h3>AUTHORS</h3>
-        <li v-for="isim in name" :key="isim.index">
-          {{ isim }}
-        </li>
+        <li v-for="isim in name" :key="isim.index">{{ isim }}</li>
       </ul>
     </div>
     <div class="contact">
@@ -15,8 +13,9 @@
     </div>
     <div class="copyright">
       <p>
-        COPYRIGHT {{ new Date().getFullYear() }} © FIVE FLOWERS BUSINESS GROUP.
-        ALL RIGHTS RESERVED.
+        COPYRIGHT {{ new Date().getFullYear() }} ©
+        <br />FIVE FLOWERS BUSINESS GROUP.
+        <br />ALL RIGHTS RESERVED.
       </p>
     </div>
   </div>
@@ -28,19 +27,19 @@ export default {
     return {
       name: [],
       adress: [],
-    }
+    };
   },
 
   created() {
-    fetch('../data.json')
+    fetch("../data.json")
       .then((e) => {
-        return e.json()
+        return e.json();
       })
       .then((e) => {
-        return (this.name = e.projectTeam), (this.adress = e.contact[0])
-      })
+        return (this.name = e.projectTeam), (this.adress = e.contact[0]);
+      });
   },
-}
+};
 </script>
 
 <style lang="css"></style>

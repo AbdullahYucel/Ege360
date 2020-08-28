@@ -10,19 +10,17 @@
       <h1>~ WELCOME ~</h1>
 
       <p>
-        This website designed for introduce physiqual facility of Ege University
+        This website is designed to introduce the physical facilities of Ege University
         - Faculty of Education.
       </p>
-      <iframe
-        src="https://momento360.com/e/u/c40df28750f34cae83be6a6291130046"
-      ></iframe>
+      <iframe src="https://momento360.com/e/u/c40df28750f34cae83be6a6291130046"></iframe>
     </div>
   </div>
 </template>
 
 <script>
-import App from '../App.vue'
-import NavBar from './NavBar.vue'
+import App from "../App.vue";
+import NavBar from "./NavBar.vue";
 
 export default {
   component: {
@@ -37,43 +35,43 @@ export default {
     return {
       cevap: [
         {
-          baslik: 'External View',
-          image: 'https://momento360.com/e/u/c40df28750f34cae83be6a6291130046',
-          aciklama: "Ege University Education Faculty's External View",
+          baslik: "External View",
+          image: "https://momento360.com/e/u/c40df28750f34cae83be6a6291130046",
+          aciklama: "Ege University, Faculty of Education's External View",
         },
       ],
       flag: true,
-    }
+    };
   },
   watch: {
     whereClick() {
-      this.showTitle()
+      this.showTitle();
     },
   },
   methods: {
     showTitle() {
-      var baslik
-      var image
-      var aciklama
+      var baslik;
+      var image;
+      var aciklama;
       this.classroom.find((e) => {
         e.key === this.whereClick
           ? ((baslik = e.baslik), (image = e.image), (aciklama = e.aciklama))
-          : ''
-      })
-      this.cevap[0].baslik = baslik
-      this.cevap[0].image = image
-      this.cevap[0].aciklama = aciklama
-      this.flag = false
+          : "";
+      });
+      this.cevap[0].baslik = baslik;
+      this.cevap[0].image = image;
+      this.cevap[0].aciklama = aciklama;
+      this.flag = false;
     },
     imageShow() {
-      return this.cevap[0].image
+      return this.cevap[0].image;
     },
   },
   mounted: function mounted() {
-    this.showTitle()
-    this.flag = true
+    this.showTitle();
+    this.flag = true;
   },
-}
+};
 </script>
 
 <style scope lang="css">
